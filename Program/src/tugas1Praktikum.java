@@ -1,4 +1,4 @@
-public class tugas1Praktikum{
+public class Tugas1Praktikum{
     public static void main(String[] args){
         System.out.println("Tugas 1 Praktikum Pemrograman Komputer Lanjut.");
         System.out.println();

@@ -1,4 +1,4 @@
-public class orkomTes {
+public class OrkomTes {
     public static void main(String[] args){
         int a = 4;
         int b = 8;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class alstrukdat2{
+public class Alstrukdat2{
     public static void main(String[] args){
         System.out.println("Program Mencari Nilai.");
         Scanner input = new Scanner(System.in);

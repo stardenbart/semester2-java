@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class alstrukdat1 {
+
+public class Alstrukdat1 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
