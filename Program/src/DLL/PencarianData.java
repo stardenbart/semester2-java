@@ -1,4 +1,4 @@
-/* package DLL;
+package DLL;
 
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -67,4 +67,3 @@ public class PencarianData {
         input.close();
     }
 }
-  */
