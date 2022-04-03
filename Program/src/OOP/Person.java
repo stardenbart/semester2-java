@@ -1,14 +1,28 @@
 package OOP;
 
-
-//class
-class Person {
+//class parent
+class Person extends Employee{
     //field
     String firstName;
     String lastName;
     String address;
-    String name;
     final String country = "Indonesia";
+
+    //constructor
+    //this keyword
+    Person(String name, String address){
+        super(name);
+        this.address = address;
+    }
+
+    Person(String name){
+        super(name);
+        this.address = null;
+    }
+
+    Person(){
+        this(null);
+    }
 
     //method
     void sayHello (String paramName){
@@ -41,4 +55,30 @@ class Person {
 
     
 
+}
+
+//inheritance: class child
+class AnotherPerson extends Person{
+    //super constructor
+    AnotherPerson(String name, String address){
+        super(name, address);
+    }
+
+    AnotherPerson(String name){
+        super(name, null);
+    }
+
+    AnotherPerson(){
+        super(null);
+    }
+
+    //method overriding
+    void sayHello(String paramName){
+        System.out.println("Hello " + paramName + ", another person name is " + name);
+    }
+
+    //super keyword
+    void sayHelloParent(String paramName){
+        super.sayHello(paramName);
+    }
 }
