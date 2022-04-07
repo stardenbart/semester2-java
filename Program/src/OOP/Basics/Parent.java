@@ -1,7 +1,7 @@
-package OOP;
+package OOP.Basics;
 
 class Parent {
-    String name;    
+    String name;
 
     void doIt(){
         System.out.println("Do it from parent");
@@ -10,6 +10,7 @@ class Parent {
 
 //variable hiding
 //gunakan nama baru untuk child class
+
 class Child extends Parent {
     String name;
 

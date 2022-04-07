@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Basics;
 
 //class parent
 class Person extends Employee{
